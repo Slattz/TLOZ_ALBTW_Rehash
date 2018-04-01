@@ -24,7 +24,7 @@ else
 endif
 
 main: $(OBJS)
-	$(CC) -o $(OUTPUT) $(LIBS) $(OBJS)
+	$(CC) -s -o $(OUTPUT) $(LIBS) $(OBJS)
 
 clean:
 	rm -rf $(OUTPUT) $(OUTPUT).exe $(OBJS)
